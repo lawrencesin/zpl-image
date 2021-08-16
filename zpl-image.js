@@ -1,3 +1,4 @@
+const pako = require('pako');
 
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {

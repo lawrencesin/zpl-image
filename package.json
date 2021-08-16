@@ -1,6 +1,6 @@
 {
   "name": "zpl-image",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A pure javascript module that converts PNG, JPEG, and GIF to Z64-encoded GRF bitmaps for use with ZPL.",
   "main": "zpl-image.js",
   "scripts": {
@@ -28,5 +28,8 @@
   "homepage": "https://github.com/metafloor/zpl-image",
   "directories": {
     "test": "tests"
+  },
+  "dependencies": {
+    "pako": "^2.0.4"
   }
 }
